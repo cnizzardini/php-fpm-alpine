@@ -6,10 +6,6 @@
 
 A Dockerfile for PHP based on the official [PHP 8.0](https://hub.docker.com/_/php) FPM Alpine image with the following extensions:
 
-Pull from dockerhub: https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine
-
-Includes:
-
 - intl 
 - pdo 
 - pdo_mysql 
