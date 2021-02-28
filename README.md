@@ -1,6 +1,6 @@
 # PHP FPM Alpine Dockerfile
 
-[![Build](https://github.com/cnizzardini/cakephp-fpm-alpine/actions/workflows/docker-image.yml/badge.svg)](https://github.com/cnizzardini/cakephp-fpm-alpine/actions/workflows/docker-image.yml)
+[![Build](https://github.com/cnizzardini/php-fpm-alpine/actions/workflows/docker-image.yml/badge.svg?branch=php-7.4)](https://github.com/cnizzardini/php-fpm-alpine/actions/workflows/docker-image.yml)
 [![PHP](https://img.shields.io/badge/php-7.4-8892BF.svg?logo=php)](https://php.net/)
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker)](https://www.docker.com)
 
