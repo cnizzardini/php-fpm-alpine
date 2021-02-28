@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - 
-        name: Get version tag
+        name: Checkout actions
         uses: actions/checkout@v2
-        run: echo "VERSION_TAG=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
@@ -25,13 +24,16 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - 
+        name: Get version tag
+        run: echo "VERSION_TAG=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       -
         name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: cnizzardini/cakephp-fpm-alpine:latest,cnizzardini/cakephp-fpm-alpine:$VERSION_TAG
+          tags: cnizzardini/cakephp-fpm-alpine:latest,cnizzardini/cakephp-fpm-alpine:$VERSION_TAG,
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
