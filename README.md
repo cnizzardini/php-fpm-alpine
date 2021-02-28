@@ -14,7 +14,6 @@ Includes:
 - pdo 
 - pdo_mysql 
 - curl 
-- json 
 - opcache 
 - readline 
 - xml 
@@ -26,3 +25,5 @@ Includes:
 | ----------- | ----------- |
 | 8.0      	| https://github.com/cnizzardini/php-fpm-alpine/tree/master |
 | 7.4   	| https://github.com/cnizzardini/php-fpm-alpine/tree/php-7.4 |
+
+Revision tags for this image do not reflect PHP revisions, they are for bug fixes and minor changes to the image.
