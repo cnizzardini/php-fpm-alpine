@@ -4,10 +4,10 @@ A Dockerfile for CakePHP based on PHP-FPM-ALPINE
 
 ## Build Arguments
 
-ARG ENVIRONMENT
-ARG USER_ID
-ARG USERNAME
-ARG APP_DIR
+- ARG ENVIRONMENT
+- ARG USER_ID
+- ARG USERNAME
+- ARG APP_DIR
 
 Example:
 
