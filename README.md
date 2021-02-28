@@ -6,6 +6,8 @@
 
 A Dockerfile for CakePHP based on the official [PHP 8.0](https://hub.docker.com/_/php) FPM Alpine image.
 
+Pull from dockerhub: https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine
+
 ## PHP Versions
 
 | Version     | Branch 		|
