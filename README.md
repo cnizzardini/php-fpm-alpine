@@ -7,3 +7,15 @@
 A Dockerfile for CakePHP based on the official [PHP 7.4](https://hub.docker.com/_/php) FPM Alpine image.
 
 Pull from dockerhub: https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine
+
+Includes:
+
+- intl 
+- pdo 
+- pdo_mysql 
+- curl 
+- json 
+- opcache 
+- readline 
+- xml 
+- zip
