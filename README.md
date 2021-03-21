@@ -8,7 +8,13 @@ A Dockerfile for CakePHP based on the official [PHP 7.4](https://hub.docker.com/
 
 Pull from dockerhub: https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine
 
-Includes:
+Alpine Packages:
+
+- libzip
+- icu
+- acl
+
+PHP Extensions:
 
 - intl 
 - pdo 
