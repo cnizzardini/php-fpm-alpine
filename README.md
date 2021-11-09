@@ -14,6 +14,7 @@ A Dockerfile for PHP based on the official [PHP 8.0](https://hub.docker.com/_/ph
 - readline 
 - xml 
 - zip
+- -acl
 
 ## PHP Versions
 
@@ -23,3 +24,5 @@ A Dockerfile for PHP based on the official [PHP 8.0](https://hub.docker.com/_/ph
 | 7.4   	| https://github.com/cnizzardini/php-fpm-alpine/tree/php-7.4 |
 
 Revision tags for this image do not reflect PHP revisions, they are for bug fixes and minor changes to the image.
+
+Docker builds and pushes are handled via GitHub actions: [.github/workflows](.github/workflows)
