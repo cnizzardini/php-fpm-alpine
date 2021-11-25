@@ -12,10 +12,8 @@ CakePHP compatibility with the following extensions:
 - pdo_mysql 
 - curl 
 - opcache 
-- readline 
 - xml 
 - zip
-- -acl
 
 ## PHP Versions
 
