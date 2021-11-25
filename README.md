@@ -4,7 +4,8 @@
 [![PHP](https://img.shields.io/badge/php-8.0-8892BF.svg?logo=php)](https://php.net/)
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker)](https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine)
 
-A Dockerfile for PHP based on the official [PHP 8.0](https://hub.docker.com/_/php) FPM Alpine image with the following extensions:
+A Dockerfile for PHP based on the official [PHP 8.0](https://hub.docker.com/_/php) FPM Alpine image. This is built for 
+CakePHP compatibility with the following extensions:
 
 - intl 
 - pdo 
