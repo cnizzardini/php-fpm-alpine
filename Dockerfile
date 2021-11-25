@@ -3,7 +3,7 @@ FROM php:8.0-fpm-alpine
 ENV TERM=linux
 
 RUN apk add libzip icu acl
-RUN apk add --no-cache --virtual .build-deps curl-dev libxml2-dev icu-dev libedit-dev libzip-dev
+RUN apk add --no-cache --virtual .build-deps curl-dev libxml2-dev icu-dev libedit-dev libzip-dev readline-dev
 RUN docker-php-ext-install intl pdo pdo_mysql curl opcache xml zip readline
 #RUN docker-php-ext-install intl pdo pdo_mysql curl opcache readline xml zip
 
