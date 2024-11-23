@@ -1,10 +1,10 @@
 # &#127856; CakePHP-FPM Alpine Dockerfile
 
 [![Image](https://github.com/cnizzardini/php-fpm-alpine/actions/workflows/docker-image.yml/badge.svg)](https://github.com/cnizzardini/php-fpm-alpine/actions/workflows/docker-image.yml)
-[![PHP](https://img.shields.io/badge/php-8.1-8892BF.svg?logo=php)](https://php.net/)
+[![PHP](https://img.shields.io/badge/php-8.2-8892BF.svg?logo=php)](https://php.net/)
 [![Docker](https://img.shields.io/badge/docker-0db7ed.svg?logo=docker)](https://hub.docker.com/repository/docker/cnizzardini/php-fpm-alpine)
 
-A Dockerfile for PHP based on the official [PHP 8.1](https://hub.docker.com/_/php) FPM Alpine image. This is built for 
+A Dockerfile for PHP based on the official [PHP 8.2](https://hub.docker.com/_/php) FPM Alpine image. This is built for 
 CakePHP compatibility with the following extensions:
 
 - intl 
@@ -19,7 +19,8 @@ CakePHP compatibility with the following extensions:
 
 | Version | Branch 		                                                  |
 |---------|------------------------------------------------------------|
-| 8.1     | https://github.com/cnizzardini/php-fpm-alpine/tree/master  |
+| 8.2     | https://github.com/cnizzardini/php-fpm-alpine/tree/master  |
+| 8.1     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.1 |
 | 8.0     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.0 |
 | 7.4     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-7.4 |
 
