@@ -27,3 +27,10 @@ CakePHP compatibility with the following extensions:
 Revision tags for this image do not reflect PHP revisions, they are for bug fixes and minor changes to the image.
 
 Docker builds and pushes are handled via GitHub actions: [.github/workflows](.github/workflows)
+
+## Update Steps
+
+1. Update `Dockerfile`
+2. Update `.github/workflows/docker-image.yml` with the new tags
+3. Create PR
+4. Merge
