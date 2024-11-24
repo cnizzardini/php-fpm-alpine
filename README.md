@@ -19,7 +19,8 @@ CakePHP compatibility with the following extensions:
 
 | Version | Branch 		                                                  |
 |---------|------------------------------------------------------------|
-| 8.3     | https://github.com/cnizzardini/php-fpm-alpine/tree/master  |
+| 8.4     | https://github.com/cnizzardini/php-fpm-alpine/tree/master  |
+| 8.3     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.3 |
 | 8.2     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.2 |
 | 8.1     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.1 |
 | 8.0     | https://github.com/cnizzardini/php-fpm-alpine/tree/php-8.0 |
